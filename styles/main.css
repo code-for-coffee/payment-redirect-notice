@@ -2,4 +2,21 @@ body {
   font: 100% Helvetica, sans-serif;
   color: #333; }
 
+#payment-popup {
+  text-align: center;
+  z-index: 5;
+  display: block;
+  position: relative;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid black; }
+  #payment-popup button {
+    background: maroon;
+    color: white;
+    border-radius: 5px;
+    width: 45%; }
+
+#shade-layer {
+  z-index: 4; }
+
 /*# sourceMappingURL=main.css.map */

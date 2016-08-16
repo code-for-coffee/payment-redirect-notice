@@ -12,3 +12,24 @@ body {
   font: 100% $font-stack;
   color: $primary-color;
 }
+
+#payment-popup {
+	text-align: center;
+	z-index: 5;
+	display: block;
+	position: relative;
+	padding: 10px;
+	border-radius: 5px;
+	border: 1px solid black;
+
+	button {
+		background: maroon;	
+		color: white;
+		border-radius: 5px;
+		width: 45%;
+	}
+}
+
+#shade-layer {
+	z-index: 4;
+}
