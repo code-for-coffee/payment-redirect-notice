@@ -17,11 +17,11 @@ function ConfirmationPopup(redirectUrl) {
 	};
 	// render popup
 	this.renderRedirectPopup = function() {
-		$(self.el).slideDown();
+		$(self.el).fadeIn();
 	};
 	// hide popup
 	this.hideRedirectPopup = function() {
-		$(self.el).slideUp();
+		$(self.el).fadeOut();
 	};
 	// redirect from the popup
 	this.redirect = function() {
@@ -40,10 +40,16 @@ $(document).ready(function(event) {
 
 	$('#show-popup').on('click', function(evt) {
 		testPopup.renderRedirectPopup();
+		$('.lightbox').addClass('on')
 	});
 
-	$('#hide-popup').on('click', function(evt) {
+	$('#no').on('click', function(evt) {
 		testPopup.hideRedirectPopup();
+		$('.lightbox').removeClass('on')
 	});
+
+
+
+
 
 });
