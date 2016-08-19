@@ -48,6 +48,10 @@ $(document).ready(function(event) {
 		$('.lightbox').removeClass('on')
 	});
 
+	$('.lightbox').on('click', function(evt) {
+		testPopup.hideRedirectPopup();
+		$('.lightbox').removeClass('on')
+	});
 
 
 

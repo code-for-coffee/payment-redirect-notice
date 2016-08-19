@@ -11,7 +11,6 @@ $primary-color: #404040;
 body {
   font: 100% $font-stack;
   color: $primary-color;
-  // background-color: #535353;
 }
 
 * {
@@ -101,42 +100,7 @@ body {
     	line-height: 1.5em;
 	}
 
-	.exit {
-		position: absolute;
-		float: right;
-		width: 50px;
-		height: 50px;
-		// background: red;
-		right: 0px;
-		top: 0px;
 
-		.line {
-			position: absolute;
-		    width: 3px;
-		    height: 20px;
-		    right: 30px;
-		    top: 20px;
-		    -webkit-border-radius: 2px;
-		    border-radius: 2px;
-		    background-color: #C1C1C1;
-
-		    &:hover {
-		    	background-color: #adadad;
-		    }
-		}
-		
-		.line-left {
-		    -ms-transform: rotate(45deg); 
-    		-webkit-transform: rotate(45deg); 
-    		transform: rotate(45deg)
-			}
-
-			.line-right {
-		    -ms-transform: rotate(-45deg); /* IE 9 */
-    		-webkit-transform: rotate(-45deg); /* Chrome, Safari, Opera */
-    		transform: rotate(-45deg)
-		}
-	}
 
 
 

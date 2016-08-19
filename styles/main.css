@@ -67,34 +67,6 @@ body {
     color: #797979;
     text-align: left;
     line-height: 1.5em; }
-  #payment-popup .exit {
-    position: absolute;
-    float: right;
-    width: 50px;
-    height: 50px;
-    right: 0px;
-    top: 0px; }
-    #payment-popup .exit .line {
-      position: absolute;
-      width: 3px;
-      height: 20px;
-      right: 30px;
-      top: 20px;
-      -webkit-border-radius: 2px;
-      border-radius: 2px;
-      background-color: #C1C1C1; }
-      #payment-popup .exit .line:hover {
-        background-color: #adadad; }
-    #payment-popup .exit .line-left {
-      -ms-transform: rotate(45deg);
-      -webkit-transform: rotate(45deg);
-      transform: rotate(45deg); }
-    #payment-popup .exit .line-right {
-      -ms-transform: rotate(-45deg);
-      /* IE 9 */
-      -webkit-transform: rotate(-45deg);
-      /* Chrome, Safari, Opera */
-      transform: rotate(-45deg); }
   #payment-popup .alert-icon {
     width: 85px;
     height: 85px;
